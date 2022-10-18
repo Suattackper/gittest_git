@@ -16,12 +16,7 @@ int main() {
 	AnhNen();
 	do {
 		system("cls");
-		DiemPlayer = 0;
-		DiemAI = 0;
-		Vong(k);
-	} while (PlayAgain(Choilai));
-	system("cls");
-	VeTuong();
+		DiemPlayer = 
 	textcolor(116);
 	gotoxy(45, 15);
 	printf("THANKS FOR PLAYING. SEE YOU AGAIN !!!");
