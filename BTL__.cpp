@@ -26,7 +26,6 @@ int main() {
 }
 
 void VeTuong() {
-	textcolor(11);
 	for (int x = 5; x <= 115; x++) {
 		gotoxy(x, 2);
 		printf("_");
