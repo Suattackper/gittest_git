@@ -10,16 +10,6 @@ int DiemPlayer = 0;
 int DiemAI = 0;
 char Choilai;
 char PlayerName[20];
-char AI[4], Player[4];
-int ipPlayer;
-void NewGame();
-void Display_Score(char AI[], char Player[]);
-void Vong(int n);
-bool PlayAgain(char Choilai);
-void VeTuong();
-void TaoMoi();
-void AnhNen();
-void Diem(int ScPlayer, int ScAI);
 
 int main() {
 	int k{};
